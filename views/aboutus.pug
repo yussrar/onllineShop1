@@ -1,0 +1,22 @@
+extends layout
+
+block layout-content
+  .about-page
+    h1 About Us
+    p
+      | Welcome to our branded luxury perfume and skincare store! At our store, we offer a wide range of high-quality and luxurious perfumes and skincare products at reasonable prices. We believe that everyone deserves to experience the joy and confidence that comes with using premium beauty products.
+    p
+      | Our brand is committed to providing reliable and authentic products that meet the highest standards of quality. We carefully curate our collection, featuring renowned and trusted brands from around the world. Whether you're looking for a signature scent or skincare products that cater to your unique needs, we have you covered.
+    p
+      | We understand the importance of self-care and the impact it can have on your overall well-being. That's why we strive to offer products that not only enhance your beauty but also nourish and care for your skin. Our team is dedicated to providing exceptional customer service, ensuring your shopping experience with us is seamless and enjoyable.
+    p
+      | Thank you for choosing our store for your beauty needs. We are excited to embark on this journey with you and help you discover the perfect perfume and skincare products that make you feel confident and beautiful.
+
+  .contact-form
+    h1 Send us a Message
+    form(action="/submit-message" method="POST")
+      label(for="name") Name:
+      input.form-name(type="text" id="name" name="name" required)
+      label(for="message") Message:
+      textarea.form-msg(id="message" name="message" required)
+      button.add-to-cart Send Message

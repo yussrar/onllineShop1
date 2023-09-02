@@ -1,0 +1,25 @@
+doctype html
+html
+  head
+    meta(charset='UTF-8')
+    title Opulenté
+    link(rel="preconnect" href="https://fonts.googleapis.com")
+    link(rel="preconnect" href="https://fonts.gstatic.com" crossorigin)
+    link(href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap" rel="stylesheet")
+    link(rel='stylesheet', href='/css/styles.css')
+  body
+    header
+      nav
+        div.logo Opulenté
+        ul.nav-links
+          li.nav-item
+            a(href="/") Home
+          li.nav-item
+            a(href="/products") Products
+          li.nav-item 
+            a(href="/aboutus") About Us
+    main#main
+        block layout-content
+
+    footer
+      p Copyright © 2023. All rights reserved.

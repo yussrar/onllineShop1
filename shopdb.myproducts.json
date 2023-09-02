@@ -1,0 +1,54 @@
+[{
+  "_id": {
+    "$oid": "6483f1b86d6824b3814c0395"
+  },
+  "name": "CHANCE EAU TENDRE",
+  "brand": "Chanel",
+  "Price": "136",
+  "category": "perfume"
+},
+{
+  "_id": {
+    "$oid": "6483f31e6d6824b3814c0399"
+  },
+  "name": "Paradoxe Eau de Parfum",
+  "brand": "Prada",
+  "Price": "129",
+  "category": "Perfume"
+},
+{
+  "_id": {
+    "$oid": "6483f3cd6d6824b3814c039a"
+  },
+  "name": "Miss Dior Blooming Bouquet",
+  "brand": "Dior",
+  "Price": "144",
+  "category": "Perfume"
+},
+{
+  "_id": {
+    "$oid": "648404206d6824b3814c039e"
+  },
+  "name": "COCO MADEMOISELLE",
+  "brand": "Chanel",
+  "Price": "62",
+  "category": "Body Cream"
+},
+{
+  "_id": {
+    "$oid": "648404736d6824b3814c039f"
+  },
+  "name": "Ambre Vanillè Soufflé",
+  "brand": "Laura Mercier",
+  "Price": "65",
+  "category": "Body Cream"
+},
+{
+  "_id": {
+    "$oid": "648405b66d6824b3814c03a0"
+  },
+  "name": "Softening Hand Wash",
+  "brand": "DIPTYQUE",
+  "Price": "70",
+  "category": "Hand Wash"
+}]

@@ -1,0 +1,14 @@
+extends layout
+
+block layout-content
+    h1.product-heading Shop Products 
+
+    div.product-grid
+        each product in prods
+            .product 
+                img.p-image(src=`/images/${product.name}.jpeg`, alt=product.name)
+                h3.product-title #{product.name}
+                p.brand #{product.brand}
+                p.p-category #{product.category}
+                p.price Price: $#{product.Price}
+                button.add-to-cart Add to Cart
