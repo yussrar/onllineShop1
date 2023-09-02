@@ -14,7 +14,7 @@ const client = new MongoClient(dbUrl);
 
 
 //pug
-app.set("views", path.join(__dirname, "views"));
+//app.set("views", path.join(__dirname, "views"));
 app.set("view engine", "pug");
 
 //public folder
@@ -22,18 +22,19 @@ app.use(express.static(path.join(__dirname, "public")));
 
 //Home 
 app.get("/", (req, res) => {
-    res.render("home");
+    res.render(path.join(__dirname, "index.pug"));
 });
 
 //products 
 app.get("/products", async (req, res) => {
     let products = await getAllProducts();
-    res.render("products", {prods: products});
+    res.render(path.join(__dirname, "products.pug"), { prods: products });
 });
+
 
 //contact 
 app.get("/aboutus", (req, res) => {
-    res.render("aboutus");
+    res.render(path.join(__dirname, "aboutus.pug"));
 });
 
 //set up server listening 
